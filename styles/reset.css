@@ -1,0 +1,37 @@
+html{
+	height:100%; /* Permet d'utiliser toute la hauteur du navigateur dès le début */
+}
+body{
+	height:100%; /* Permet d'utiliser toute la hauteur du navigateur dès le début */
+	margin:0; /* Colle le body au bord du navigateur */
+}
+*{
+	box-sizing:border-box; /* empeche le padding d'agrandir l'élément */
+}
+h1,h2,h3,h4,h5,h6,p{
+	/*margin:0;*/
+}
+ul{
+	padding-left:0;
+	margin:0;
+	list-style:none;
+}
+
+/* HELPERS */
+.mg0{
+	margin:0;
+}
+.pd0{
+	padding:0;
+}
+.debug,.debug *{
+	background-color:rgba(255,0,0,0.1) !important;
+	border:1px dashed red !important;
+}
+
+
+
+
+
+
+
